@@ -1,0 +1,1574 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header start */
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+z-index: 1;
+}
+
+.header_icon {
+  height: 110px;
+  width: 110px;
+  margin-left: 25px;
+}
+
+.menu ul {
+  list-style: none;
+  margin-left: 10%;
+  margin-top: -80px;
+
+}
+
+.menu ul li {
+  width: 150px;
+  height: 35px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 10px;
+  float: left;
+}
+
+.menu ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: arial;
+  text-decoration: none;
+}
+
+.menu ul li:hover {
+  background: purple;
+}
+
+.menu ul ul {
+  display: none;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.login {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: arial;
+  margin-top: -12px;
+  position: absolute;
+  font-weight: bold;
+  margin-left: 250px;
+  background-color: transparent;
+}
+
+.user_profile {
+  height: 50px;
+  width: 50px;
+  margin-left: 430px;
+  margin-top: -25px;
+}
+
+.search {
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: -15px;
+  position: absolute;
+  margin-left: 25px;
+}
+
+
+/* Header End */
+.background_color {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  /* z-index: -1; */
+  background-image: linear-gradient(to right, black, purple);
+}
+
+.girl_image {
+  margin-left: 1000px;
+  height: 600px;
+  position: absolute;
+}
+
+.big_font {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.golden_font {
+  font-size: 50px;
+  color: goldenrod;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 385px;
+  margin-top: 100px;
+}
+
+.small_fonts {
+  font-size: 45px;
+  color: white;
+  font-family: arial;
+  margin-top: 180px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.home_button {
+  height: 50px;
+  width: 200px;
+  background-color: yellow;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.home_button a {
+  text-decoration: none;
+  margin-left: 50px;
+  color: black;
+}
+
+.home_button:hover {
+  background: red;
+}
+
+/* Home End */
+
+/* About Start */
+.point_image1 {
+  height: 100px;
+  width: 600px;
+  margin-left: 450px;
+  margin-top: 670px;
+  position: absolute;
+}
+
+.about_background {
+  width: 100%;
+  height: 850PX;
+  background-image: linear-gradient(to right, purple, black);
+  margin-top: 49%;
+  position: absolute;
+}
+
+.golden_about {
+  font-size: 50PX;
+  font-weight: bold;
+  color: goldenrod;
+  margin-top: 20px;
+  margin-left: 640px;
+  position: absolute;
+}
+
+.about_button {
+  height: 50px;
+  width: 200px;
+  background-color: yellow;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 50px;
+  margin-left: 1300px;
+  margin-top: 30px;
+}
+
+.about_button a {
+  text-decoration: none;
+  margin-left: 80px;
+  font-weight: bold;
+  color: black;
+}
+
+.about_button:hover {
+  background: red;
+}
+
+.blue_box {
+  height: 400px;
+  width: 600px;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 130px;
+}
+
+.about_img {
+  height: 400px;
+  width: 600px;
+  margin-top: 130px;
+  margin-left: 780px;
+  position: absolute;
+}
+
+.golden_about2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-top: 100px;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.programmers_p {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+  margin-left: 250px;
+  position: absolute;
+}
+
+.Programmer_about {
+  font-size: 20px;
+  color: white;
+  font-family: arial;
+  margin-top: 10px;
+  /* margin-left: 50px; */
+  text-align: justify;
+  /* position: absolute;  */
+  /* padding: 400px; */
+
+}
+
+.our_mission {
+  font-size: 35px;
+  font-weight: bold;
+  color: goldenrod;
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 130px;
+}
+
+.red_box {
+  height: 250px;
+  width: 600px;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 130px;
+}
+
+.mission_dis {
+  font-size: 20px;
+  color: white;
+  font-family: arial;
+  text-align: justify;
+  /* margin-top: 620px; */
+  /* margin-left: 50px; */
+  /* position: absolute;   */
+}
+
+.our_vission {
+  font-size: 35px;
+  font-weight: bold;
+  color: goldenrod;
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 780px;
+}
+
+.pink_box {
+  height: 250px;
+  width: 600px;
+  background-color: tp;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 780px;
+}
+
+.vission_dis {
+  font-size: 20px;
+  color: white;
+  font-family: arial;
+  text-align: justify;
+  /* margin-top: 620px; */
+  /* margin-left: 50px; */
+  /* position: absolute;   */
+}
+
+/* About End */
+
+
+/* start courses */
+.point_image2 {
+  height: 100px;
+  width: 600px;
+  margin-left: 450px;
+  margin-top: 110%;
+  position: absolute;
+}
+
+.courses_background {
+  width: 100%;
+  height: 1390px;
+  margin-top: 107.3%;
+  position: absolute;
+  background-image: linear-gradient(to right, black, purple);
+}
+
+.courses_golden {
+  font-size: 50px;
+  font-weight: bold;
+  color: goldenrod;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 650px;
+
+}
+
+.frontend_heading_white {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 130px;
+
+}
+
+.frontend_heading_golden {
+  font-size: 40px;
+  font-weight: bold;
+  color: goldenrod;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+
+/* --------------------------------------------------------------HTML_CSS */
+.html_gold a {
+  text-decoration: none;
+  margin-top: 200px;
+  margin-left: 140px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.html_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-top: 300px;
+}
+
+.html_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.html_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.html_box:hover .html_container {
+  left: 0px;
+}
+
+
+/* ---------------------------------------------------------------CSS_CSS */
+.css_gold a {
+  margin-top: 200px;
+  margin-left: 530px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.css_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 450px;
+  margin-top: 300px;
+}
+
+.css_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.css_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.css_box:hover .css_container {
+  left: 0px;
+}
+
+/* ------------------------------------------------------------------------JAVA_CSS */
+.java_gold a {
+  text-decoration: none;
+  margin-top: 200px;
+  margin-left: 820px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.java_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 820px;
+  margin-top: 300px;
+}
+
+.java_box img {
+  width: 170px;
+  height: 300px;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.java_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.java_box:hover .java_container {
+  left: 0px;
+}
+
+/* ---------------------------------------------------------------------BOOT_CSS */
+.boot_gold a {
+  text-decoration: none;
+  margin-top: 200px;
+  margin-left: 1180px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.boot_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 1180px;
+  margin-top: 300px;
+}
+
+.boot_box img {
+  width: 170px;
+  height: 300px;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.boot_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.boot_box:hover .boot_container {
+  left: 0px;
+}
+
+/* --------------------------------------------------------------JQUERY_CSS */
+.jquery_gold a {
+  text-decoration: none;
+  margin-top: 750px;
+  margin-left: 120px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.jquery_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-top: 830px;
+}
+
+.jquery_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.jquery_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.jquery_box:hover .jquery_container {
+  left: 0px;
+}
+
+/* --------------------------------------------------------------------REACT_CSS */
+.react_gold a {
+  text-decoration: none;
+  margin-top: 750px;
+  margin-left: 1220px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.react_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 1180px;
+  margin-top: 830px;
+}
+
+.react_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.react_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.react_box:hover .react_container {
+  left: 0px;
+}
+
+
+.web_design {
+  margin-top: 730px;
+  margin-left: 400px;
+  width: 700px;
+}
+
+/* ----------------------------------------------------------- */
+
+.backend_background {
+  width: 100%;
+  height: 1950px;
+  margin-top: 11%;
+  position: absolute;
+  background-image: linear-gradient(to right, purple, BLACK);
+}
+
+.backend_white {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  margin-left: 600px;
+  position: absolute;
+}
+
+.courses_gold {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 800px;
+  margin-top: 30px;
+  position: absolute;
+  color: goldenrod;
+}
+
+/* ----------------------------------------------------------- */
+.python_gold a {
+  margin-top: 300px;
+  margin-left: 180px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.python_box {
+  border: 4px solid white;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 380px;
+}
+
+.python_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.python_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding-left: 150px;
+  padding-top: 25px;
+  position: absolute;
+  left: -650px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.python_box:hover .python_container {
+  left: 0px;
+}
+
+/* ----------------------------------------------------- */
+
+.oops_gold a {
+  text-decoration: none;
+  margin-top: 300px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.oops_box {
+  border: 4px solid white;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 528px;
+  margin-top: 380px;
+}
+
+.oops_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.oops_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding-left: 150px;
+  padding-top: 25px;
+  position: absolute;
+  left: -650px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.oops_box:hover .oops_container {
+  left: 0px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+
+.django_gold a {
+  text-decoration: none;
+  margin-top: 300px;
+  margin-left: 1180px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.django_box {
+  border: 4px solid white;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 1035px;
+  margin-top: 380px;
+}
+
+.django_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.django_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding-left: 150px;
+  padding-top: 25px;
+  position: absolute;
+  left: -650px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.django_box:hover .django_container {
+  left: 0px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.fulstack_white {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 55%;
+  margin-left: 650px;
+  position: absolute;
+}
+
+.fulstack_golden {
+  font-size: 50px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-top: 55%;
+  margin-left: 810px;
+  position: absolute;
+}
+
+.sql_gold a {
+  text-decoration: none;
+  margin-top: 950px;
+  margin-left: 160px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.sql_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-top: 1030px;
+}
+
+.sql_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.sql_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.sql_box:hover .sql_container {
+  left: 0px;
+}
+
+
+.mysql_gold a {
+  text-decoration: none;
+  margin-top: 950px;
+  margin-left: 505px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.mysql_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 450px;
+  margin-top: 1030px;
+}
+
+.mysql_box img {
+  width: 170px;
+  height: 300px;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.mysql_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.mysql_box:hover .mysql_container {
+  left: 0px;
+}
+
+
+
+.plsql_gold a {
+  text-decoration: none;
+  margin-top: 950px;
+  margin-left: 870px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.plsql_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 820px;
+  margin-top: 1030px;
+}
+
+.plsql_box img {
+  width: 170px;
+  height: 300px;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.plsql_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.plsql_box:hover .plsql_container {
+  left: 0px;
+}
+
+.Oracle_gold a {
+  text-decoration: none;
+  margin-top: 950px;
+  margin-left: 1220px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.Oracle_box {
+  border: 4px solid white;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 1180px;
+  margin-top: 1030px;
+}
+
+.Oracle_box img {
+  width: 200px;
+  height: 300px;
+  margin-top: 48px;
+  margin-left: 25px;
+}
+
+.Oracle_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  left: -450px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.Oracle_box:hover .Oracle_container {
+  left: 0px;
+}
+
+
+.mongo_gold a {
+  text-decoration: none;
+  margin-top: 1470px;
+  margin-left: 650px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: goldenrod;
+}
+
+.mongo_box {
+  border: 4px solid white;
+  width: 620px;
+  height: 400px;
+  position: absolute;
+  margin: 10px auto;
+  overflow: hidden;
+  margin-left: 450px;
+  margin-top: 1540px;
+}
+
+.mongo_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.mongo_container {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  padding-left: 150px;
+  padding-top: 25px;
+  position: absolute;
+  left: -850px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.90);
+  transition: all 0.5s;
+}
+
+.mongo_box:hover .mongo_container {
+  left: 0px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.facility_background {
+  margin-top: 333%;
+  width: 100%;
+  height: 780px;
+  position: absolute;
+  background-image: linear-gradient(to right, black, purple);
+}
+
+.facility_golden {
+  font-size: 50px;
+  color: goldenrod;
+  font-weight: bold;
+  margin-left: 650px;
+  margin-top: 50px;
+}
+
+.box {
+  margin-top: 100px;
+  height: 300px;
+  width: 1250px;
+  margin-left: 130px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.sir1_box {
+  margin-top: 80px;
+  margin-left: 50px;
+  height: 400px;
+  width: 300px;
+  background-color: gray;
+  border-radius: 20px;
+  position: absolute;
+
+}
+
+
+.sir1 {
+  height: 150px;
+  width: 150px;
+  margin-left: 70px;
+  margin-top: -70px;
+  position: absolute;
+  border: 5px solid purple;
+  border-radius: 100px;
+}
+
+.name_white {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+
+.email_white {
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.work {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 40px;
+  color: white;
+
+}
+
+.icon_box {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  margin-top: 63px;
+  border-radius: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.sir2_box {
+  margin-top: 80px;
+  margin-left: 470px;
+  height: 400px;
+  width: 300px;
+  background-color: gray;
+  border-radius: 20px;
+  position: absolute;
+
+}
+
+
+.sir2 {
+  height: 150px;
+  width: 150px;
+  margin-left: 70px;
+  margin-top: -70px;
+  position: absolute;
+  border: 5px solid purple;
+  border-radius: 100px;
+}
+
+.name_white {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+
+.email_white {
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.work {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 40px;
+  color: white;
+
+}
+
+.icon_box {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  margin-top: 63px;
+  border-radius: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.sir3_box {
+  margin-top: 80px;
+  margin-left: 900px;
+  height: 400px;
+  width: 300px;
+  background-color: gray;
+  border-radius: 20px;
+  position: absolute;
+  transition: width, height, 1s, 1s,
+}
+
+.sir_box:hover {
+  width: 400px;
+  height: 500px;
+}
+
+.sir3 {
+  height: 150px;
+  width: 150px;
+  margin-left: 70px;
+  margin-top: -70px;
+  position: absolute;
+  border: 5px solid purple;
+  border-radius: 100px;
+}
+
+.name_white {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+
+.email_white {
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.work {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 40px;
+  color: white;
+
+}
+
+.icon_box {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  margin-top: 63px;
+  border-radius: 20px;
+}
+
+/* -------------------------------------------------------- */
+
+.login_background {
+  width: 100%;
+  height: 750px;
+  margin-top: 388%;
+  position: absolute;
+  background-image: linear-gradient(to right, purple, black);
+}
+
+.register_golden {
+  font-size: 50px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+.register_background {
+  width: 800px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 600px;
+  position: absolute;
+}
+
+.register_box {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.register_black {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.name_box {
+  height: 30px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 85px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.last_box {
+  height: 30px;
+  width: 200px;
+  margin-left: 230px;
+  margin-top: 85px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.email1_box {
+  height: 30px;
+  width: 420px;
+  margin-left: 10px;
+  margin-top: 160px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.password_box {
+  height: 30px;
+  width: 420px;
+  margin-left: 10px;
+  margin-top: 235px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.confirm_password {
+  height: 30px;
+  width: 420px;
+  margin-left: 10px;
+  margin-top: 310px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.register_button {
+  height: 50px;
+  width: 200px;
+  background-color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 50px;
+  border-radius: 50px;
+  margin-left: 120px;
+  margin-top: 400px;
+}
+
+.register_button a {
+  text-decoration: none;
+  margin-left: 60px;
+  color: black;
+
+}
+
+.register_button :hover {
+  background: red;
+}
+
+/* --------------------------------------------------------------------- */
+
+.footer_background {
+  width: 100%;
+  height: 1415px;
+  background-image: linear-gradient(to right, black, purple);
+  margin-top: 441%;
+}
+
+.contact_golden {
+  font-size: 50px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-left: 700px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.phone_box {
+  width: 400px;
+  height: 150px;
+  background-color: #fff;
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.phone_number {
+  font-size: 30px;
+  font-family: arial;
+  margin-left: 100px;
+}
+
+.number {
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.email_box {
+  width: 400px;
+  height: 150px;
+  background-color: #fff;
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 550px;
+  border-radius: 20px;
+}
+
+.email {
+  font-size: 30px;
+  font-family: arial;
+  margin-left: 100px;
+}
+
+.number {
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+
+.location_box {
+  width: 400px;
+  height: 150px;
+  background-color: #fff;
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 1000px;
+  border-radius: 20px;
+}
+
+.location {
+  font-size: 30px;
+  font-family: arial;
+  margin-left: 100px;
+}
+
+.location_add {
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.map {
+  width: 1300px;
+  height: 500px;
+  margin-top: 350px;
+  margin-left: 100px;
+}
+
+
+.orange_box {
+  width: 90%;
+  height: 460px;
+  margin-top: 50px;
+  margin-left: 80px;
+  position: absolute;
+  background-image: linear-gradient(to right, blue, black);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.red2_box {
+  height: 330px;
+  width: 300px;
+  margin-top: 70px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.red2_bold {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+}
+
+.red2_text {
+  font-size: 20px;
+  margin-top: 20px;
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+}
+
+.pink2_box {
+  height: 330px;
+  width: 300px;
+  margin-top: 70px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  margin-left: 360px;
+}
+
+.pink2_bold {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+}
+
+.pink2_text {
+  font-size: 20px;
+  margin-top: 20px;
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+}
+
+.blue2_box {
+  height: 330px;
+  width: 300px;
+  margin-top: 70px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  margin-left: 710px;
+}
+
+.blue2_bold {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+}
+
+.blue2_text {
+  font-size: 20px;
+  margin-top: 20px;
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+}
+
+.cyan2_box {
+  height: 330px;
+  width: 300px;
+  margin-top: 70px;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  margin-left: 1050px;
+}
+
+.cyan2_bold {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+}
+
+.cyan2_text {
+  font-size: 20px;
+  margin-top: 20px;
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+}
+
+.facebook_gif {
+  width: 50px;
+  height: 50px;
+  margin-left: 1000px;
+  position: absolute;
+}
+
+.instagram_gif {
+  width: 50px;
+  height: 50px;
+  margin-left: 1080px;
+  position: absolute;
+}
+
+.linkdin_gif {
+  width: 50px;
+  height: 50px;
+  margin-left: 1150px;
+  position: absolute;
+}
+
+.youtub_gif {
+  width: 50px;
+  height: 50px;
+  margin-left: 1220px;
+  position: absolute;
+}
